@@ -127,7 +127,7 @@ $CateList.forEach((e, i) => {
 
         $CateList[i].classList.add("on"); // 클릭한 버튼만 on
 
-        axios.get("../data/data.json")
+        axios.get("data/data.json")
         .then (function(res) {
             let PortData;
             if ($attr === "전체") {
