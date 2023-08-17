@@ -145,7 +145,7 @@ $CateList.forEach((e, i) => {
     });
 });
 
-axios.get("../data/data.json")
+axios.get("data/data.json")
 .then (function(res) {
     // console.log(res);
     PortfolioData(res.data.Portfolio);
